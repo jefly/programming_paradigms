@@ -1,0 +1,16 @@
+public class ObjectOrient {
+	
+	String name;
+	int age;
+	
+	public ObjectOrient() {
+		name = "saman";
+		age = 23;
+	}
+	public static void main(String[] args) {
+		
+		ObjectOrient s = new ObjectOrient();
+		System.out.println(s.name + " " + s.age);
+	}
+}
+
