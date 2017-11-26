@@ -1,0 +1,15 @@
+public class Imperative {
+	
+	String say;
+	
+	void sayHelloworld(){
+		say = "Hello World!!";
+		System.out.println(say);
+	}
+
+	public static void main(String[] args) {
+		
+		new Imperative().sayHelloworld();
+	}
+}
+
